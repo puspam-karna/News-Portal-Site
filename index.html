@@ -17,6 +17,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body onload="myfunction()">
     <div id="loader">
@@ -64,13 +65,9 @@
       <!-- breaking news -->
       <div id="breaking">
         <h2 class="breakhead">Breaking News</h2>
-        <marquee>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, neque.
-          Nulla et eum dolor repellat obcaecati esse minima. Doloribus sit
-          pariatur itaque odio quidem quaerat at tempora nemo maiores
-          vel?</marquee
-        >
+        <marquee >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt itaque aspernatur aliquam maiores ducimus, quasi dolorum</marquee>>
       </div>
+
       <!-- accordion -->
       <h1>TRENDING</h1>
       <div class="acc-container">
@@ -177,7 +174,7 @@
       <main>
         <section class="top">
           <div class="top-container-left">
-            <h2>News Title</h2>
+            <h2>News Category</h2>
             <div class="container-top-left">
               <article>
                 <img src="images/top-left.jpg" />
@@ -193,7 +190,9 @@
                     Blanditiis ea sint, nisi rem earum fugit? Facere veritatis
                     sapiente eveniet quibusdam.
                   </p>
-
+                  <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                   <a href="#">Read More <span>>></span></a>
                 </div>
               </article>
@@ -211,7 +210,9 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Commodi iure modi animi cupiditate. Explicabo, nihil?
                   </p>
-
+                  <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                   <a href="#">Read More <span>>></span></a>
                 </div>
               </article>
@@ -226,7 +227,9 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Commodi iure modi animi cupiditate. Explicabo, nihil?
                   </p>
-
+                  <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                   <a href="#">Read More <span>>></span></a>
                 </div>
               </article>
@@ -237,7 +240,7 @@
             <h2>Latest Stories</h2>
 
             <article>
-              <h4>category</h4>
+              <h4 class="categ">category</h4>
               <div>
                 <h3>
                   title Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -248,14 +251,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                   repellendus?
                 </p>
-
+                <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read More <span>>></span></a>
               </div>
               <img src="images/right-1.jpg" />
             </article>
 
             <article>
-              <h4>category</h4>
+              <h4 class="categ">category</h4>
               <div>
                 <h3>
                   title Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -266,14 +271,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                   repellendus?
                 </p>
-
+                <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read More <span>>></span></a>
               </div>
               <img src="images/right-2.jpg" />
             </article>
 
             <article>
-              <h4>category</h4>
+              <h4 class="categ">category</h4>
               <div>
                 <h3>
                   title Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -284,14 +291,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                   repellendus?
                 </p>
-
+                <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read More <span>>></span></a>
               </div>
               <img src="images/right-3.jpg" />
             </article>
 
             <article>
-              <h4>category</h4>
+              <h4 class="categ">category</h4>
               <div>
                 <h3>
                   title Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -302,14 +311,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                   repellendus?
                 </p>
-
+                <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read More <span>>></span></a>
               </div>
               <img src="images/right-4.jpg" />
             </article>
 
             <article>
-              <h4>category</h4>
+              <h4 class="categ">category</h4>
               <div>
                 <h3>
                   title Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -320,7 +331,9 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                   repellendus?
                 </p>
-
+                <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read More <span>>></span></a>
               </div>
               <img src="images/right-5.jpg" />
@@ -340,6 +353,9 @@
                   adipisicing elit. Cumque dolorem, non quasi maxime recusandae
                   earum voluptatibus! Debitis iste architecto numquam.
                 </p>
+                  <div class="author-date"><p >Name of Author </br>
+                  1st July 2021
+                  </p></div>
                 <a href="#">Read more <span>>></span></a>
               </article>
               <article class="bottom-left-right">
@@ -425,5 +441,9 @@
         unload.style.display = "unset";
       }
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>

@@ -84,7 +84,7 @@ header {
 #date {
   position: absolute;
   margin-left: 30px;
-  animation: down 3s linear;
+  animation: down 5s linear;
 
   animation-iteration-count: infinite;
 }
@@ -93,11 +93,8 @@ header {
   0% {
     top: -20px;
   }
-  50% {
-    top: 0px;
-  }
   100% {
-    top: 30px;
+    top: 33px;
   }
 }
 
@@ -346,6 +343,7 @@ nav ul li a:hover {
 #breaking marquee {
   padding: 5px;
   color: white;
+
 }
 
 /* Accordion */
@@ -356,7 +354,7 @@ nav ul li a:hover {
   height: 250px;
   margin: 20px auto;
   display: flex;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 0px black;
   cursor: pointer;
 }
 
@@ -800,8 +798,9 @@ main h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 10px;
   align-self: center;
+  width: fit-content;
 }
 
 .top-container-right article h3 {
@@ -836,7 +835,7 @@ main h2 {
 
 .bottom-left-left,
 .bottom-left-right {
-  padding: 15px 30px;
+  padding: 15px 10px;
 }
 
 .bottom-left-left img {
@@ -1266,4 +1265,28 @@ main h2 {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+.author-date {
+  margin-top: 10px;
+}
+
+.author-date p {
+  color: #0000009a;
+  font-size: 14px;
+}
+
+.categ {
+  background-color: rgb(0, 132, 255);
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 2px;
+}
+.more h4 {
+  width: fit-content;
+  margin-bottom: 5px;
+  margin-left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
 }
